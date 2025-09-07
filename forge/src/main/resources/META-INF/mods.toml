@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+clientSideOnly=true
+
+[[mods]]
+modId = "tramways_hotfix"
+version = "${version}"
+displayName = "Tramways Hotfix"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.tramways_hotfix]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tramways_hotfix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tramways_hotfix]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tramways_hotfix]]
+modId = "tramways"
+mandatory = true
+versionRange = "[0.0.4,0.3.0]"
+ordering = "AFTER"
+side = "BOTH"

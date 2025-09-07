@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.gamingking2436.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+	"TTSMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

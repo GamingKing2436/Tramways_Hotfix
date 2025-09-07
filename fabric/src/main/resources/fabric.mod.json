@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tramways_hotfix",
+  "version": "${version}",
+  "name": "Tramways Hotfix",
+  "description": "A small fix for some bugs",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "idk",
+  "icon": "assets/tramways_hotfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gamingking2436.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "com.gamingking2436.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "tramways_hotfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
